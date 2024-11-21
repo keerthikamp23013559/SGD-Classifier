@@ -62,7 +62,7 @@ classification
 
 ![image](https://github.com/user-attachments/assets/0beabf36-30c4-4d8a-b76d-c6b56fec7579)
 
-![classification](https://github.com/user-attachments/assets/a2963ab6-7f3e-4fa7-919f-85f98ec829a1)
+![classification](https://github.com/user-attachments/assets/833bf9e6-1435-4e35-bcfe-d98712ea909e)
 
 
 ## Result:
