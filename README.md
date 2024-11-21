@@ -29,7 +29,7 @@ import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.linear_model import SGDClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score,confusion_matrix
+from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
 iris=load_iris()
 df=pd.DataFrame(data=iris.data,columns=iris.feature_names)
 df['target']=iris.target
@@ -49,6 +49,9 @@ print(f"Accuracy:{accuracy:.3f}")
 confusion=confusion_matrix(y_test,y_pred)
 print("confusion matrix")
 confusion
+classification=classification_report(y_test,y_pred)
+print("classification_report")
+classification
 ```
 
 ## Output:
@@ -58,6 +61,9 @@ confusion
 ![image](https://github.com/user-attachments/assets/7dd86262-795c-49a6-844e-f5feb5fa6554)
 
 ![image](https://github.com/user-attachments/assets/0beabf36-30c4-4d8a-b76d-c6b56fec7579)
+
+![classification](https://github.com/user-attachments/assets/a2963ab6-7f3e-4fa7-919f-85f98ec829a1)
+
 
 ## Result:
 Thus, the program to implement the prediction of the Iris species using SGD Classifier is written and verified using Python programming.
